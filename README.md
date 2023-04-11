@@ -32,4 +32,17 @@ Create a neat and simple portfolio with this simple python script and host it on
 3. Run the main script (only required package is Pillow, which is only used for dummy image generation.
 3.1 You could probably run it without Pillow, just make sure to add images to each card.
 4. Rename the repo to *your-username*.github.io
+
+    The repo should look like this:
+    ```
+    ez_cards/
+    ├── Images/
+    │ ├── repo_1.png
+    │ ├── repo_2.png
+    │ └── repo_3.png (etc. for each repo)
+    ├── index.html
+    ├── readme.md (this is not needed)
+    └── styles.css
+    ```
+    
 5. Done! You can now visit the site at *your-username*.github.io.
