@@ -31,8 +31,7 @@ Create a neat and responsive portfolio with this simple python script and host i
     about_site = 'Hello, this is my portfolio of this and that and this and those and so.'
     ```
 
-3. Run the main script (only required package is Pillow, which is only used for dummy image generation.
-3.1 You could probably run it without Pillow, just make sure to add images to each card.
+3. Run the main script (only required package is Pillow, which is only used for dummy image generation. (You could probably run it without Pillow, just make sure to add images to each card.)
 4. Rename the repo to *your-username*.github.io
 
     The repo should look like this:
@@ -46,5 +45,9 @@ Create a neat and responsive portfolio with this simple python script and host i
     ├── readme.md (this is not needed)
     └── styles.css
     ```
-    
 5. Done! You can now visit the site at *your-username*.github.io.
+
+
+
+
+
