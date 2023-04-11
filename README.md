@@ -1,6 +1,6 @@
 # ez_cards
 
-Create a neat and simple portfolio with this simple python script and host it on Github for free! <a href="https://wlinds.github.io">Demo here!</a>
+Create a neat and responsive portfolio with this simple python script and host it on Github for free! <a href="https://wlinds.github.io">Demo here!</a>
 
 ## How to use:
 
