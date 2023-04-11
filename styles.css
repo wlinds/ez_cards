@@ -1,0 +1,156 @@
+/* Typography */
+body {
+	font-family: 'Helvetica', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #444;
+	background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	margin: 0;
+}
+
+h1 {font-size: 36px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18px;}
+p {margin: 0 0 10px;}
+
+/* Links */
+a {
+	color: #1eaedb;
+	text-decoration: none;
+}
+
+/* Header */
+header {
+	color: #ffffff;
+	background-color: #28342bee;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+}
+
+/* Cards */
+  
+  .card {
+	flex: 1 1 30%;
+	margin: 10px 0px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #f4f4f4;
+	perspective: 1000px;
+	transition: 0.36s;
+	
+  }
+  
+  .card img {
+	width: 100%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  }
+
+  .card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.414);
+	background-color: white;
+  }
+  
+  .card h3 {
+	font-size: 1.5rem;
+	margin-bottom: 5px;
+  }
+  
+  .card p {
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+  }
+  
+  .card a {
+	display: block;
+	text-align: right;
+	color: #337ab7;
+	font-weight: bold;
+	text-decoration: none;
+  }
+  
+  .card2 {
+	width: 20em;
+	margin-right: -1px;
+	border-radius: 16px;
+	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+	  rgba(0, 0, 0, 0.359) 0px 0px 0px 1.2px;
+	padding: 2rem 2rem;
+	perspective: 1000px;
+	transition: 0.36s;
+  }
+  
+  .card2:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.414);
+	background-color: white;
+  }
+
+/* Style rules for screens that are at least 600px wide */
+@media only screen and (min-width: 768px) {
+    /* Add your styles for desktop here */
+    .card {
+      display: inline-block;
+      width: 300px;
+      margin-right: 20px;
+    }
+	.cards-main {
+		margin-left: 200px;
+
+	}
+  }
+  
+  /* Style rules for screens that are less than 600px wide */
+  @media only screen and (max-width: 767px) {
+    /* Add your styles for mobile here */
+    .card {
+      display: block;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+/* About */
+.about-me {
+	padding: 20px 0;
+	background-color: #f4f4f4;
+	margin: 100px 800px 200px 30px;
+	color: #f6f6f6;
+}
+.about-2 {
+	color: #f6f6f6;
+	background-color: #000000ee;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+	margin: 100px 35px;
+	justify-items: center;
+	text-justify: auto;
+	text-align: center;
+}
+
+.footer {
+	color: #919191;
+	background-color: #000000ee;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 40px;
+	margin: 40px 35px;
+	justify-items: center;
+	text-justify: auto;
+	text-align: center;
+}
