@@ -35,7 +35,7 @@ Create a neat and simple portfolio with this simple python script and host it on
 
     The repo should look like this:
     ```
-    ez_cards/
+    your-username.github.io/
     ├── Images/
     │ ├── repo_1.png
     │ ├── repo_2.png
