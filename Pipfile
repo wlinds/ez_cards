@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 Pillow = "*"
+diffusers = "==0.4.0"
+transformers = "*"
+scipy = "*"
+ftfy = "*"
+torch = "*"
 
 [dev-packages]
 ipykernel = "*"
