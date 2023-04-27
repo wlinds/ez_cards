@@ -7,7 +7,7 @@ Create a neat and responsive portfolio with this simple python script and host i
 ## How to use:
 
 1. Copy this repo
-2. Open main.py, scroll to the bottom, change the variables:
+2. Open main.py, add your info:
 
     Github username, case sensitive:
     ```
