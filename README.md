@@ -45,7 +45,7 @@ Create a neat and responsive portfolio with this simple python script and host i
     ├── readme.md (this is not needed)
     └── styles.css
     ```
-5. Done! You can now visit the site at *your-username*.github.io.
+5. Commit your repo. Done! You can now visit the site at *your-username*.github.io.
 
 
 
